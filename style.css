@@ -7,5 +7,151 @@
 }
 
 body {
+  width: 100%;
+  min-height: 100vh;
   font-family: "Hanken Grotesk", sans-serif;
+}
+
+.container {
+  width: 375px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.result {
+  height: 340px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.result-title {
+  font-size: 18px;
+  color: hsla(0, 0%, 100%, 0.6);
+  margin: 20px 0;
+}
+
+.result-circle {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.my-points {
+  font-size: 54px;
+  color: hsl(0, 0%, 100%);
+}
+
+.max-points {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-weight: 700;
+}
+
+.main-message {
+  color: hsl(0, 0%, 100%);
+  margin: 10px 0;
+}
+
+.sub-message {
+  width: 280px;
+  text-align: center;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.summary {
+  width: 100%;
+}
+
+.sum-title {
+  text-align: left;
+  font-size: 20px;
+  margin: 20px 0 20px 20px;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 340px;
+  height: 60px;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.reaction {
+  background: hsla(0, 100%, 67%, 0.1);
+}
+
+.memory {
+  background: hsla(39, 100%, 56%, 0.1);
+}
+
+.verbal {
+  background: hsla(166, 100%, 37%, 0.1);
+}
+
+.visual {
+  background: hsla(234, 85%, 45%, 0.1);
+}
+
+.skill-name {
+  display: flex;
+  gap: 10px;
+}
+
+.red-title {
+  color: hsl(0, 100%, 67%);
+}
+
+.yellow-title {
+  color: hsl(39, 100%, 56%);
+}
+
+.green-title {
+  color: hsl(166, 100%, 37%);
+}
+
+.blue-title {
+  color: hsl(234, 85%, 45%);
+}
+
+.skill-points {
+  font-weight: 800;
+  color: hsla(0, 100%, 0%, 0.4);
+}
+
+.skill-points > b {
+  color: hsl(0, 100%, 0%);
+}
+
+.all-skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.continue-button {
+  width: 340px;
+  padding: 18px 0;
+  font-size: 18px;
+  color: hsl(0, 0%, 100%);
+  background: hsl(224, 30%, 27%);
+  margin-top: 20px;
+  border: none;
+  border-radius: 30px;
 }
